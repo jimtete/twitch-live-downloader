@@ -6,7 +6,7 @@ def download_livestream(channel_url):
 
 def is_channel_live(channel_url, file_name):
     ydl_opts = {
-        'outtmpl': file_name,
+        'outtmpl': f"../../livestreams/{file_name}",
         'fixup': 'never',
         'verbose': True
     }
