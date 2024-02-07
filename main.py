@@ -2,7 +2,7 @@ import sys
 import time
 from twitch_downloader import download_livestream
 
-twitch_link = "https://www.twitch.tv/bonus_daddies"
+twitch_link = "https://www.twitch.tv/ninjacakeassassin"
 
 def parse_timer(v):
     try:
